@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Infrastructure", "Demo.Infrastructure\Demo.Infrastructure.csproj", "{B345F70B-5A6B-4D98-B8F4-079434430D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ConsoleConsumer", "Demo.Console\Demo.ConsoleConsumer.csproj", "{74D09720-FD65-4EBD-9C11-75F28D1B366F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Domain", "Demo.Domain\Demo.Domain.csproj", "{3C3A6707-3153-4F90-83AD-581C71407C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Repository.MongoDb", "Demo.Repository.MongoDb\Demo.Repository.MongoDb.csproj", "{44B04FFE-162A-48E6-8C95-A330EF68F7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.ApplicationService", "Demo.ApplicationService\Demo.ApplicationService.csproj", "{F8DDDD45-DCDE-4526-80C6-0FBC650B7A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.HttpJobRunner", "Demo.WindowsService\Demo.HttpJobRunner.csproj", "{A01218CB-BA57-4ED8-AA9F-007BC58AAA61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B345F70B-5A6B-4D98-B8F4-079434430D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B345F70B-5A6B-4D98-B8F4-079434430D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B345F70B-5A6B-4D98-B8F4-079434430D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B345F70B-5A6B-4D98-B8F4-079434430D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D09720-FD65-4EBD-9C11-75F28D1B366F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D09720-FD65-4EBD-9C11-75F28D1B366F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D09720-FD65-4EBD-9C11-75F28D1B366F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D09720-FD65-4EBD-9C11-75F28D1B366F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3A6707-3153-4F90-83AD-581C71407C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3A6707-3153-4F90-83AD-581C71407C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3A6707-3153-4F90-83AD-581C71407C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3A6707-3153-4F90-83AD-581C71407C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B04FFE-162A-48E6-8C95-A330EF68F7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B04FFE-162A-48E6-8C95-A330EF68F7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B04FFE-162A-48E6-8C95-A330EF68F7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B04FFE-162A-48E6-8C95-A330EF68F7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DDDD45-DCDE-4526-80C6-0FBC650B7A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DDDD45-DCDE-4526-80C6-0FBC650B7A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DDDD45-DCDE-4526-80C6-0FBC650B7A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DDDD45-DCDE-4526-80C6-0FBC650B7A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01218CB-BA57-4ED8-AA9F-007BC58AAA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01218CB-BA57-4ED8-AA9F-007BC58AAA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01218CB-BA57-4ED8-AA9F-007BC58AAA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01218CB-BA57-4ED8-AA9F-007BC58AAA61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
